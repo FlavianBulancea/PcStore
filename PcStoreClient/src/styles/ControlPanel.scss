@@ -1,0 +1,20 @@
+.control-header {
+  display: flex;
+  width: 100.4%;
+  color: #fff;
+  background-color: #3f51b5;
+  height: 100px;
+  min-height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  font: 40px "Segoe UI","Lucida Grande",Arial;
+  font-weight: bold;
+  text-justify: auto;
+  padding-left: 42%;
+  padding-top: 40px;
+}
+
+.componenta-produs-cart {
+  font-weight: bold;
+}

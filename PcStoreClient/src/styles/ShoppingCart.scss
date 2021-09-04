@@ -1,0 +1,133 @@
+.cart-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 60px;
+  margin-left: 10%;
+}
+.componenta-produs-cart {
+  display: flex;
+
+  .div-with-p-div{
+
+    margin-left: 20px;
+
+    .titlu-produs-cart {
+      font-weight: bold;
+    }
+
+    .descriere-produs-cart {
+      color: grey;
+      text-align: right;
+
+    }
+  }
+}
+
+.cart-sumar {
+
+  display: flex;
+
+  .sumar-comanda {
+    background: white;
+    width: 15%;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: #282c34;
+    border-radius: 8px;
+    box-shadow: 3px 3px 2px #8c8c8c;
+    overflow: hidden;
+    border: 0 none;
+    display: flex;
+    flex-direction: column;
+
+    .sumar-comanda-titlu {
+      margin-left: 5%;
+      margin-bottom: 7%;
+      margin-top: 5%;
+      font-weight: 700;
+      font-size: 20px;
+      font-family: "Open Sans",Helvetica,sans-serif;
+      color: #404040;
+    }
+    .sumar-comanda-prod {
+      display: block;
+      font: 12px "Segoe UI","Lucida Grande",Arial;
+      color: #404040;
+      margin-left: 5%;
+
+      .pret-sumar {
+        position: relative;
+        right: 5%;
+        margin-top: -10px;
+        margin-bottom: 5px;
+        text-align: right;
+
+      }
+    }
+
+    .separator {
+      background-color: #777777;
+      width: 90%;
+      height: 1px;
+      margin-left: 5%;
+      margin-top: 20%;
+    }
+
+    .total-sumar {
+      margin-left: 5%;
+      margin-top: 10px;
+      font-weight: 700;
+      color: #000;
+      font-family: "Open Sans",Helvetica,sans-serif;
+      font-size: 20px;
+    }
+
+    .div-with-btn {
+      height: 60px;
+
+      .pop-button {
+        height: 35px;
+        //background-color: rgb(1, 177, 237);
+        background-color: #1763aa;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        color: #fff;
+        overflow: hidden;
+        font-size: 16px;
+        width: 70%;
+        margin-top: 20%;
+        margin-left: 15%;
+        cursor: pointer;
+
+        div {
+          background-color: #f88949;
+          width: 60px;
+          height: 100%;
+          margin-right: 3px;
+          margin-left: -10px;
+          border-radius: 0 0 35px 0;
+
+
+          svg {
+            margin-left: -10px;
+            margin-top: 7px;
+            font-size: large;
+          }
+        }
+        p {
+          overflow: hidden;
+          height: 100%;
+          line-height: 35px;
+          margin-left: 5px;
+          margin-top: -2px;
+        }
+      }
+    }
+  }
+}
+
+
+

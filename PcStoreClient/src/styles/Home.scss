@@ -1,0 +1,26 @@
+//.product-container {
+//  display: flex;
+//  flex-wrap: wrap;
+//  margin-left: 9.2%;
+//  width: 81.6%;
+//}
+.product-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 1%;
+  background-color: white;
+  text-align: center !important;
+  vertical-align: center !important;
+}
+
+.logo {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 48px;
+  position: absolute;
+  left: 160px;
+  color: #fff;
+  font-size: 20px;
+}
+

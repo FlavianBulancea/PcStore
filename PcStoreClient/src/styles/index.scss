@@ -1,0 +1,16 @@
+@import './ProductCard.scss';
+@import './Home.scss';
+@import './ShowCart.scss';
+@import './TopBar.scss';
+@import './ShoppingCart.scss';
+@import './ControlPanel.scss';
+
+html {
+  background: #d9d9d9 !important;
+}
+body {
+  background: #d9d9d9 !important;
+}
+body::backdrop {
+  background-color: #d9d9d9 !important;
+}
